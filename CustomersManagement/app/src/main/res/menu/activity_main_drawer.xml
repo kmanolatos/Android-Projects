@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Αρχική" />
+    </group>
+    <item android:title="Προσθήκη - Αναζήτηση">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_customer_add"
+                    android:icon="@drawable/ic_menu_customer_add"
+                    android:title="Καταχώρηση Πελάτη" />
+                <item
+                    android:id="@+id/nav_customer_search"
+                    android:icon="@drawable/ic_menu_customer_search"
+                    android:title="Αναζήτηση Πελατών" />
+                <item
+                    android:id="@+id/nav_add_note"
+                    android:icon="@drawable/ic_menu_add_note"
+                    android:title="Προσθήκη Σημείωσης" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Επεξεργασία">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_customer_edit"
+                    android:icon="@drawable/ic_menu_customer_edit"
+                    android:title="Αλλαγή Στοιχείων" />
+                <item
+                    android:id="@+id/nav_customer_debt"
+                    android:icon="@drawable/ic_menu_customer_debt"
+                    android:title="Καταχώρηση Νέου Χρέους" />
+                <item
+                    android:id="@+id/nav_customer_payment"
+                    android:icon="@drawable/ic_menu_customer_payment"
+                    android:title="Πίστωση Χρέους" />
+                <item
+                    android:id="@+id/nav_customer_guarantee"
+                    android:icon="@drawable/ic_menu_customer_guarantee"
+                    android:title="Εγγύηση" />
+                <item
+                    android:id="@+id/nav_customer_task"
+                    android:icon="@drawable/ic_menu_customer_task"
+                    android:title="Δουλειά" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Υπενθυμίσεις">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_tasks_today"
+                    android:icon="@drawable/ic_menu_tasks_today"
+                    android:title="Δουλειές Σήμερα" />
+                <item
+                    android:id="@+id/nav_tasks_tomorrow"
+                    android:icon="@drawable/ic_menu_tasks_tomorrow"
+                    android:title="Δουλειές Αύριο" />
+                <item
+                    android:id="@+id/nav_pending_tasks"
+                    android:icon="@drawable/ic_menu_pending_tasks"
+                    android:title="Eκκρεμείς Δουλειές" />
+                <item
+                    android:id="@+id/nav_notes"
+                    android:icon="@drawable/ic_menu_notes"
+                    android:title="Σημειώσεις" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Ιστορικό">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                android:id="@+id/nav_customer_deleted_guarantees"
+                android:icon="@drawable/ic_menu_customer_deleted_guarantees"
+                android:title="Λήξη Εγγυήσεων" />
+                <item
+                    android:id="@+id/nav_customer_payment_history"
+                    android:icon="@drawable/ic_menu_customer_payment_history"
+                    android:title="Πιστώσεις Χρέους" />
+            </group>
+        </menu>
+    </item>
+</menu>

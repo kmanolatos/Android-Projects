@@ -1,0 +1,92 @@
+<resources>
+    <string-array name="customer_search">
+        <item>Όνομα</item>
+        <item>Επώνυμο</item>
+    </string-array>
+
+    <!-- headers -->
+    <string name="name">Όνομα</string>
+    <string name="surname">Επώνυμο</string>
+    <string name="phone1">Τηλέφωνο 1</string>
+    <string name="phone2">Τηλέφωνο 2</string>
+    <string name="area">Περιοχή</string>
+    <string name="address">Διεύθυνση</string>
+    <string name="email">Email</string>
+
+
+    <string name="home">Αρχική</string>
+    <string name="insert">ΚΑΤΑΧΩΡΗΣΗ</string>
+    <string name="debt">Χρέος</string>
+    <string name="guarantees">Εγγυήσεις</string>
+    <string name="tasks">Δουλειές</string>
+    <string name="credit">Πίστωση</string>
+    <string name="change">ΑΛΛΑΓΗ</string>
+    <string name="details">Λεπτομέρειες :</string>
+    <string name="date">Ημερομηνία :</string>
+    <string name="time">Ώρα :</string>
+    <string name="dateExpiration">Ημερομηνία Λήξης :</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="totalDebt">Συνολικό Χρέος :</string>
+    <string name="newDebt">Νέο Χρέος :</string>
+    <string name="confirm">Επιβεβαίωση</string>
+    <string name="confirmMessage">Είσαι σίγουρος?</string>
+    <string name="insertSuccess">Η καταχώρηση έγινε με επιτυχία</string>
+    <string name="insertUnsuccess">Η καταχώρηση απέτυχε</string>
+    <string name="deleteSuccess">Η διαγραφή έγινε με επιτυχία</string>
+    <string name="dateTimeError">Μη έγκυρη ημερομηνία ή ώρα</string>
+    <string name="dateError">Μη έγκυρη ημερομηνία</string>
+    <string name="changeSuccess">Η αλλαγή έγινε με επιτυχία</string>
+    <string name="noDebt">Το χρέος του πελάτη έχει πιστωθεί</string>
+    <string name="fieldReguiredError">Το πεδίο είναι υποχρεωτικό</string>
+    <string name="loadingData">Φόρτωση Δεδομένων...</string>
+    <string name="checkGuaranteesExpiration">Έλεγχος για λήξη εγγυήσεων...</string>
+    <string name="checkTasks">Έλεγχος για δουλειές...</string>
+    <string name="checkCustomersGuarantees">Έλεγχος για εγγυήσεις πελατών...</string>
+    <string name="checkCustomersCreditDebts">Έλεγχος για πιστώσ πελατών...</string>
+    <string name="checkCustomersTasks">Δουλειές πελατών...</string>
+    <string name="checkCustomersData">Στοιχεία πελατών...</string>
+    <string name="welcome">Καλώς ήρθατε στο πρόγραμμα Διαχείρισης Πελατών</string>
+    <string name="createdBy">Δημιουργήθηκε από τον Κωνσταντίνο Μανωλάτο</string>
+    <string name="sendEmail">Για τυχόν σφάλματα ή ενημερώσεις παρακαλώ στείλτε μου μήνυμα στο konstantinos.manwlatos@gmail.com</string>
+    <string name="restart">Πρέπει να γίνει επανεκκίνηση της εφαρμογής επειδή άλλαξε η ημέρα.</string>
+
+
+    <!-- menu -->
+    <string-array name="menu">
+        <item name="addSearch">Προσθήκη - Αναζήτηση</item>
+        <item name="edit">Επεξεργασία</item>
+        <item name="notifications">Ειδοποιήσεις</item>
+        <item name="history">Ιστορικό</item>
+    </string-array>
+
+
+    <!-- submenu -->
+    <string-array name="addSearchSubmenu">
+        <item name="nav_customer_add">Καταχώρηση Πελάτη</item>
+        <item name="nav_customer_search">Αναζήτηση Πελάτη</item>
+        <item name="nav_add_note">Προσθήκη Σημείωσης</item>
+    </string-array>
+
+
+    <string-array name="editSubmenu">
+        <item name="nav_customer_edit">Αλλαγή Στοιχείων</item>
+        <item name="nav_customer_debt">Καταχώρηση Νέου Χρέους</item>
+        <item name="nav_customer_payment">Πίστωση Χρέους</item>
+        <item name="nav_customer_guarantee">Εγγυήσεις</item>
+        <item name="nav_customer_task">Δουλειές</item>
+    </string-array>
+
+
+    <string-array name="notificationsSubmenu">
+        <item name="nav_menu_tasks_today">Δουλειές Σήμερα</item>
+        <item name="nav_tasks_tomorrow">Δουλειές Αύριο</item>
+        <item name="nav_pending_tasks">Εκκρεμείς Δουλειές</item>
+        <item name="nav_notes">Σημειώσεις</item>
+    </string-array>
+
+
+    <string-array name="historySubmenu">
+        <item name="nav_customer_deleted_guarantees">Λήξη Εγγυήσεων</item>
+        <item name="nav_customer_payment_history">Πιστώσεις Χρέους</item>
+    </string-array>
+</resources>

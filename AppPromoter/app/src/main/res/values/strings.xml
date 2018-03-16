@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App Promoter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Log Out</string>
+
+    <string name="admob_app_id">ca-app-pub-5593953116329757~7369556827</string>
+
+    <string name="facebook_app_id">184882578934153</string>
+    <string name="fb_login_protocol_scheme">fb184882578934153</string>
+</resources>

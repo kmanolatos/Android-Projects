@@ -1,0 +1,14 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_customer_add" type="drawable">@drawable/ic_menu_customer_add</item>
+    <item name="ic_menu_customer_search" type="drawable">@drawable/ic_menu_customer_search</item>
+    <item name="ic_menu_customer_edit" type="drawable">@drawable/ic_menu_customer_edit</item>
+    <item name="ic_menu_customer_debt" type="drawable">@drawable/ic_menu_customer_debt</item>
+    <item name="ic_menu_customer_payment" type="drawable">@drawable/ic_menu_customer_payment</item>
+    <item name="ic_menu_customer_guarantee" type="drawable">@drawable/ic_menu_customer_guarantee</item>
+    <item name="ic_menu_customer_task_details" type="drawable">@drawable/ic_menu_customer_task_details</item>
+    <item name="ic_menu_tasks_today" type="drawable">@drawable/ic_menu_tasks_today</item>
+    <item name="ic_menu_tasks_tomorrow" type="drawable">@drawable/ic_menu_tasks_tomorrow</item>
+    <item name="ic_menu_customer_deleted_guarantees" type="drawable">@drawable/ic_menu_customer_deleted_guarantees</item>
+    <item name="ic_menu_home" type="drawable">@drawable/ic_menu_home</item>
+    <item name="ic_menu_pending_tasks" type="drawable">@drawable/ic_menu_pending_tasks</item>
+</resources>
